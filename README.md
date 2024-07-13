@@ -6,6 +6,8 @@ Welcome to my hostel management sytem website that basically contains the hostel
   Frontend part
   <li>
     React.js
+  </li>
+  <li>
     Tailwind css
   </li>
 </ul>
@@ -13,7 +15,11 @@ Welcome to my hostel management sytem website that basically contains the hostel
   Backend part
   <li>
     Node.js
-    Express.js
-    Mongodb(database connection)
+  </li>
+  <li>
+    Express js
+  </li>
+  <li>
+    Mongodb and postman for api configuration
   </li>
 </ul>

@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from '../components/navbar';
+import Footer from '../components/footer';
 
 const AboutUs = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-blue-300">
         <div className="container mx-auto px-4 py-12">
           <h1 className="text-4xl font-bold mb-8 text-center">About Oasis Hostel</h1>
 
@@ -35,15 +36,9 @@ const AboutUs = () => {
               Meals are an important part of our offering. We provide delicious and nutritious meals that cater to diverse tastes and dietary requirements. Our kitchen staff ensures that you enjoy wholesome food that keeps you energized throughout the day.
             </p>
           </section>
-
-          <section className="bg-white shadow-lg rounded-lg p-8 mb-8">
-            <h2 className="text-2xl font-bold mb-4 text-gray-900 text-center">Thank You</h2>
-            <p className="text-lg text-gray-700">
-              Thank you for choosing Oasis Hostel. We are excited to welcome you and ensure that your stay with us is comfortable and memorable.
-            </p>
-          </section>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

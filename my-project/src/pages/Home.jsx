@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/navbar';
+import Footer from '../components/footer';
 
 const Home = () => {
   return (
@@ -10,8 +11,8 @@ const Home = () => {
         style={{ backgroundImage: `url('/hostel.jpeg')` }}
       >
         <div className="absolute inset-0 bg-black opacity-40"></div> {/* Background overlay for the whole screen */}
-        <div className="relative p-8 mt-10 mx-auto bg-opacity-70 rounded-md">
-          <h1 className="text-6xl font-extrabold mb-4 text-center text-red-900 font-serif">Welcome to Oasis Hostel</h1>
+        <div className="relative p-2 mt-10 mx-auto bg-opacity-70 rounded-md">
+          <h1 className="text-6xl font-extrabold mb-5 text-center text-red-900 font-serif">Welcome to Oasis Hostel</h1>
         </div>
       </div>
       <main className="bg-slate-500 py-16">
@@ -45,6 +46,7 @@ const Home = () => {
           </div>
         </section>
       </main>
+      <Footer/>
     </>
   );
 };

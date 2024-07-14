@@ -13,7 +13,7 @@ import { AuthProvider } from './context/AuthContext';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/signup",
     element: <Signup/>
   },
   {
@@ -26,7 +26,11 @@ const router = createBrowserRouter([
     element: <Login/>
   },
   {
-    path: "/home",
+    path: "/",
+    element: <Home/>
+  },
+  {
+    path:"/home",
     element: <Home/>
   },
   {

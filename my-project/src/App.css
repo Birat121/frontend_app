@@ -1,0 +1,5 @@
+.bg-custom{
+  background-image: url('D:\frontend_app\my-project\public\study.jpeg');
+  background-size:cover;
+  background-position: center;
+}

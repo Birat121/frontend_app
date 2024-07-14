@@ -16,7 +16,7 @@ const Header = () => {
               <Link className="font-bold text-3xl hover:text-blue-800" to="/about">About Us</Link>
             </li>
             <li>
-              <Link className="font-bold text-3xl hover:text-blue-800" to="/dashboard">Dashboard</Link>
+              <Link className="font-bold text-3xl hover:text-blue-800" to="/signup">Register</Link>
             </li>
             
           </ul>

@@ -6,9 +6,9 @@ import AboutUs from './pages/AboutUs';
 import Login from './pages/Login';
 import Signup from './pages/SignUp';
 import Dashboard from './pages/Dashboard';
-import KitchenRoutine from './components/kitchenroutine';
-import LaundrySchedule from './components/laundryroutine';
-import EntryExitTimes from './components/entryexittime';
+import KitchenRoutine from './pages/DashboardCompo/kitchenroutine';
+import LaundrySchedule from './pages/DashboardCompo/laundryroutine';
+import EntryExitTimes from './pages/DashboardCompo/entryexittime';
 import { AuthProvider } from './context/AuthContext';
 
 const router = createBrowserRouter([
